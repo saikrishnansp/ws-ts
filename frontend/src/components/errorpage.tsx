@@ -24,7 +24,7 @@ const ErrorPage: React.FC<{ message?: string }> = ({
       </h1>
       <p style={{ fontSize: "1.5rem", marginBottom: "2rem" }}>{message}</p>
       <button
-        onClick={() => navigate("/")}
+        onClick={() => navigate("/ws-ts")}
         style={{
           padding: "0.75rem 1.5rem",
           fontSize: "1rem",
